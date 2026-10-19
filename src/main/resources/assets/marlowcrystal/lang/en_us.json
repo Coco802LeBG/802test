@@ -1,0 +1,23 @@
+{
+  "key.categories.marlowcrystal": "Crystal Reflex",
+  "key.marlowcrystal.toggle_reflex": "Toggle Reflex mode",
+  "key.marlowcrystal.resync_held_item": "Resync held item",
+  "marlowcrystal.config.title": "Coco802 Crystal Reflex",
+  "marlowcrystal.config.category.crystals": "Crystals",
+  "marlowcrystal.config.keep_render": "Keep Render",
+  "marlowcrystal.config.keep_render.description": "Keeps a broken crystal visible until the server removes it. It stops blocking your crosshair and the next placement straight away. If the server did not break it, it can be hit again as soon as that is known, and at the latest after 1.5 seconds.",
+  "marlowcrystal.config.reflex_mode": "Crystal Reflex mode",
+  "marlowcrystal.config.reflex_mode.description": "Enables the client responsiveness layer and the F8 toggle. It never creates clicks or aim input.",
+  "marlowcrystal.config.raw_mouse": "Raw mouse input",
+  "marlowcrystal.config.raw_mouse.description": "Uses GLFW raw mouse motion when supported to avoid OS pointer acceleration and reduce input filtering.",
+  "marlowcrystal.config.totem_guard": "Totem ghost guard",
+  "marlowcrystal.config.totem_guard.description": "Tracks offhand totem state and enables the manual F7 carried-slot resync for stale client inventory state.",
+  "marlowcrystal.config.category.updates": "Updates",
+  "marlowcrystal.config.update_source": "Update Source",
+  "marlowcrystal.config.update_source.description": "Where to look for new versions built for your Minecraft version and mod loader.",
+  "marlowcrystal.config.experimental_builds": "Experimental Builds",
+  "marlowcrystal.config.experimental_builds.description": "Also offers beta builds when looking for new versions, not only full releases. Beta builds can still change before they are released.",
+  "key.category.marlowcrystal.main": "Crystal Reflex",
+  "key.category.client802.main": "802 Client",
+  "key.client802.menu": "Open 802 Client menu"
+}

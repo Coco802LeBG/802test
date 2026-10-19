@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "client802",
+  "version": "${version}",
+  "name": "802 Client",
+  "description": "802 Client : modules, menu en jeu, GUI scale par écran et Crystal Reflex intégré (basé sur Marlow's Crystal Optimizer, MIT).",
+  "authors": ["Coco802"],
+  "license": "MIT",
+  "icon": "assets/client802/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.coco802.client.Client802",
+      "com.deathmotion.marlowcrystal.loader.fabric.MarlowCrystalFabric"
+    ]
+  },
+  "mixins": ["MarlowCrystal.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.3", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
